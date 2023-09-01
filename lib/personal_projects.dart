@@ -114,8 +114,8 @@ class PersonalProjects extends StatelessWidget {
                                               children: [
                                                 new IconButton( icon: Icon( Icons.link),
                                                   onPressed: () async {
-                                                    if(await canLaunch("https://www.linkedin.com/in/suganya-murugan-83360b261")) {
-                                                      await launch("https://www.linkedin.com/in/suganya-murugan-83360b261");
+                                                    if(await canLaunch("https://github.com/Suganya14Oct/Project-Myself/tree/master")) {
+                                                      await launch("https://github.com/Suganya14Oct/Project-Myself/tree/master");
                                                     }
                                                   },
                                                 ),
