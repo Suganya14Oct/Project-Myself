@@ -6,7 +6,7 @@ import 'package:myself/detailed_animator.dart';
 class RepoData {
   static final Company bawp = new Company(
     name: 'Suganya M',
-    about: 'Flutter Developer with 1.5+ years of experience in designing,'
+    about: 'Flutter Developer with 1.7+ years of experience in designing,'
         ' developing and deploying user-friendly mobile Apps using Dart Language in Mobile Application Development.'
         ' Seeking a mid-senior level in flutter developing excellence to excel in a challenging and innovativemobile app developer and strive to exercise my full potential.',
     backdropPhoto: 'assets/background_img.jpg',

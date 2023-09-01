@@ -114,8 +114,8 @@ class PersonalProjects extends StatelessWidget {
                                               children: [
                                                 new IconButton( icon: Icon( Icons.link),
                                                   onPressed: () async {
-                                                    if(await canLaunch("https://github.com/Suganya14Oct/Project-Myself/tree/master")) {
-                                                      await launch("https://github.com/Suganya14Oct/Project-Myself/tree/master");
+                                                    if(await canLaunchUrl(Uri.parse("https://github.com/Suganya14Oct/Project-Myself/tree/master"))) {
+                                                      await launchUrl(Uri.parse("https://github.com/Suganya14Oct/Project-Myself/tree/master"));
                                                     }
                                                   },
                                                 ),
@@ -210,8 +210,8 @@ class PersonalProjects extends StatelessWidget {
                                                 children: [
                                                   new IconButton( icon: Icon( Icons.link),
                                                     onPressed: () async {
-                                                      if(await canLaunch("https://www.linkedin.com/in/suganya-murugan-83360b261")) {
-                                                        await launch("https://www.linkedin.com/in/suganya-murugan-83360b261");
+                                                      if(await canLaunchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Google_maps"))) {
+                                                        await launchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Google_maps"));
                                                       }
                                                     },
                                                   ),
@@ -306,8 +306,8 @@ class PersonalProjects extends StatelessWidget {
                                                 children: [
                                                   new IconButton( icon: Icon( Icons.link),
                                                     onPressed: () async {
-                                                      if(await canLaunch("https://www.linkedin.com/in/suganya-murugan-83360b261")) {
-                                                        await launch("https://www.linkedin.com/in/suganya-murugan-83360b261");
+                                                      if(await canLaunchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Jokes_app_orientation"))) {
+                                                        await launchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Jokes_app_orientation"));
                                                       }
                                                     },
                                                   ),
@@ -402,8 +402,8 @@ class PersonalProjects extends StatelessWidget {
                                                 children: [
                                                   new IconButton( icon: Icon( Icons.link),
                                                     onPressed: () async {
-                                                      if(await canLaunch("https://www.linkedin.com/in/suganya-murugan-83360b261")) {
-                                                        await launch("https://www.linkedin.com/in/suganya-murugan-83360b261");
+                                                      if(await canLaunchUrl(Uri.parse("https://github.com/Suganya14Oct/flutter-pro"))) {
+                                                        await launchUrl(Uri.parse("https://github.com/Suganya14Oct/flutter-pro"));
                                                       }
                                                     },
                                                   ),
@@ -498,8 +498,8 @@ class PersonalProjects extends StatelessWidget {
                                                 children: [
                                                   new IconButton( icon: Icon( Icons.link),
                                                     onPressed: () async {
-                                                      if(await canLaunch("https://www.linkedin.com/in/suganya-murugan-83360b261")) {
-                                                        await launch("https://www.linkedin.com/in/suganya-murugan-83360b261");
+                                                      if(await canLaunchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Mortgage"))) {
+                                                        await launchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Mortgage"));
                                                       }
                                                     },
                                                   ),
@@ -594,8 +594,8 @@ class PersonalProjects extends StatelessWidget {
                                                 children: [
                                                   new IconButton( icon: Icon( Icons.link),
                                                     onPressed: () async {
-                                                      if(await canLaunch("https://www.linkedin.com/in/suganya-murugan-83360b261")) {
-                                                        await launch("https://www.linkedin.com/in/suganya-murugan-83360b261");
+                                                      if(await canLaunchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Movies_app"))) {
+                                                        await launchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Movies_app"));
                                                       }
                                                     },
                                                   ),
@@ -690,8 +690,8 @@ class PersonalProjects extends StatelessWidget {
                                                 children: [
                                                   new IconButton( icon: Icon( Icons.link),
                                                     onPressed: () async {
-                                                      if(await canLaunch("https://www.linkedin.com/in/suganya-murugan-83360b261")) {
-                                                        await launch("https://www.linkedin.com/in/suganya-murugan-83360b261");
+                                                      if(await canLaunchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Jokes_app_orientation"))) {
+                                                        await launchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Jokes_app_orientation"));
                                                       }
                                                     },
                                                   ),
@@ -786,8 +786,8 @@ class PersonalProjects extends StatelessWidget {
                                                 children: [
                                                   new IconButton( icon: Icon( Icons.link),
                                                     onPressed: () async {
-                                                      if(await canLaunch("https://www.linkedin.com/in/suganya-murugan-83360b261")) {
-                                                        await launch("https://www.linkedin.com/in/suganya-murugan-83360b261");
+                                                      if(await canLaunchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Weather_forecast"))) {
+                                                        await launchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Weather_forecast"));
                                                       }
                                                     },
                                                   ),
@@ -882,8 +882,8 @@ class PersonalProjects extends StatelessWidget {
                                                 children: [
                                                   new IconButton( icon: Icon( Icons.link),
                                                     onPressed: () async {
-                                                      if(await canLaunch("https://www.linkedin.com/in/suganya-murugan-83360b261")) {
-                                                        await launch("https://www.linkedin.com/in/suganya-murugan-83360b261");
+                                                      if(await canLaunchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/quakes_map_app"))) {
+                                                        await launchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/quakes_map_app"));
                                                       }
                                                     },
                                                   ),
