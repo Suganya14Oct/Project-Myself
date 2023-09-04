@@ -100,6 +100,7 @@ class Certicate extends StatelessWidget {
                                               children: [
                                                 new IconButton( icon: Icon( Icons.link),
                                                   onPressed: () async {
+
                                                     if(await canLaunchUrl(Uri.parse("https://www.udemy.com/certificate/UC-1341bfa0-0440-4217-8dc5-2e0edea0c33a/"))) {
                                                       await launchUrl(Uri.parse("https://www.udemy.com/certificate/UC-1341bfa0-0440-4217-8dc5-2e0edea0c33a/"));
                                                     }
