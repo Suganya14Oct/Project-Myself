@@ -121,23 +121,20 @@ class ProjectThree extends StatelessWidget {
                   fontWeight: FontWeight.w500
               ),
             ),
-            Container(
-              height: 360,
-              //color: Colors.redAccent,
-              child: Text("                  By using this project the client may able to maintain his/her court details in a form type."
-                  "The main purpose of this app is to maintain/update/check important forms and all the details regarding"
-                  "the case, inorder to submit in court on the specific day/time(hearing)."
-                  "For example on the first hearing the client having some forms and case regarded files. It should be"
-                  "rechecked/updated/modified for the second hearing. But the client doesn't know when was the second hearing."
-                  "until he/she have to maintain that file without oblivion regarding that particular case. So, by using this app"
-                  "the client may able to meet his/her need.",
-                style: TextStyle(
-                    color: Colors.white.withOpacity(animation!.aboutOpacity!.value),
-                    height: 1.4,
-                    fontSize: 15,
-                    fontWeight: FontWeight.w500
-                ),
-              ),),
+            Text("                  By using this project the client may able to maintain his/her court details in a form type."
+                "The main purpose of this app is to maintain/update/check important forms and all the details regarding"
+                "the case, inorder to submit in court on the specific day/time(hearing)."
+                "For example on the first hearing the client having some forms and case regarded files. It should be"
+                "rechecked/updated/modified for the second hearing. But the client doesn't know when was the second hearing."
+                "until he/she have to maintain that file without oblivion regarding that particular case. So, by using this app"
+                "the client may able to meet his/her need.",
+              style: TextStyle(
+                  color: Colors.white.withOpacity(animation!.aboutOpacity!.value),
+                  height: 1.4,
+                  fontSize: 15,
+                  fontWeight: FontWeight.w500
+              ),
+            ),
             SizedBox(
               height: 10.0,
             ),

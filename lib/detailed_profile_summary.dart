@@ -147,15 +147,7 @@ class DetailedProfileSummary extends StatelessWidget {
                   ),
                 ),
                 SizedBox(height: 14.0,),
-                Text("-> Worked in 2+ projects based on client specifications.",
-                  style: TextStyle(
-                      color: Colors.white.withOpacity(animation!.aboutOpacity!.value),
-                      height: 1.4,
-                      fontWeight: FontWeight.w500
-                  ),
-                ),
-                SizedBox(height: 14.0,),
-                Text("->  Familiar with state Management - provider           ",
+                Text("-> Worked in 2+ projects based on client specifications & Familiar with state Management - provider",
                   style: TextStyle(
                       color: Colors.white.withOpacity(animation!.aboutOpacity!.value),
                       height: 1.4,

@@ -8,7 +8,7 @@ class RepoData {
     name: 'Suganya M',
     about: 'Flutter Developer with 1.7+ years of experience in designing,'
         ' developing and deploying user-friendly mobile Apps using Dart Language in Mobile Application Development.'
-        ' Seeking a mid-senior level in flutter developing excellence to excel in a challenging and innovativemobile app developer and strive to exercise my full potential.',
+        ' Seeking a mid-senior level in flutter developing excellence to excel in a challenging and innovative mobile app developer and strive to exercise my full potential.',
     backdropPhoto: 'assets/background_img.jpg',
     courses: <Course>[
       new Course(

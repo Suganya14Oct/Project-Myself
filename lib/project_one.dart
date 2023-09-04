@@ -121,20 +121,17 @@ class ProjectOne extends StatelessWidget {
                   fontWeight: FontWeight.w500
               ),
             ),
-            Container(
-              height: 220,
-              //color: Colors.redAccent,
-              child: Text("                 This project has two different apps, One named as ""Temple City Admin,""Temple City delivery App.""Both apps have"
-                          "different purposes. Admin app is used by the hotel members to update, modify, delete daily food dishes, special"
-                              "dishes, prize details, etc,. On the other hand, the delivery app - which is used the customers to order food."
-                              "Both the apps are Interlinked.",
-                            style: TextStyle(
-                                color: Colors.white.withOpacity(animation!.aboutOpacity!.value),
-                                height: 1.4,
-                                fontSize: 15,
-                                fontWeight: FontWeight.w500
-                            ),
-            ),),
+            Text("                 This project has two different apps, One named as ""Temple City Admin,""Temple City delivery App.""Both apps have"
+                        "different purposes. Admin app is used by the hotel members to update, modify, delete daily food dishes, special"
+                            "dishes, prize details, etc,. On the other hand, the delivery app - which is used the customers to order food."
+                            "Both the apps are Interlinked.",
+                          style: TextStyle(
+                              color: Colors.white.withOpacity(animation!.aboutOpacity!.value),
+                              height: 1.4,
+                              fontSize: 15,
+                              fontWeight: FontWeight.w500
+                          ),
+            ),
             SizedBox(
               height: 10.0,
             ),
@@ -149,71 +146,67 @@ class ProjectOne extends StatelessWidget {
             SizedBox(
               height: 10.0,
             ),
-            Container(
-              height: 360,
-              //color: Colors.redAccent,
-              child: Column(
-                children: [
-                Text("->  Worked in Admin App & Created front-end design for 8 - 10 modules.",
-                            style: TextStyle(
-                                color: Colors.white.withOpacity(animation!.aboutOpacity!.value),
-                                height: 1.4,
-                                fontSize: 15,
-                                fontWeight: FontWeight.w500
-                            ),
+            Column(
+              children: [
+              Text("->  Worked in Admin App & Created front-end design for 8 - 10 modules.",
+                          style: TextStyle(
+                              color: Colors.white.withOpacity(animation!.aboutOpacity!.value),
+                              height: 1.4,
+                              fontSize: 15,
+                              fontWeight: FontWeight.w500
                           ),
-              Text("->  Integrated more than 10 - 15 APIs & Worked with JSON",
-                        style: TextStyle(
-                            color: Colors.white.withOpacity(animation!.aboutOpacity!.value),
-                            height: 1.4,
-                            fontSize: 15,
-                            fontWeight: FontWeight.w500
                         ),
+            Text("->  Integrated more than 10 - 15 APIs & Worked with JSON",
+                      style: TextStyle(
+                          color: Colors.white.withOpacity(animation!.aboutOpacity!.value),
+                          height: 1.4,
+                          fontSize: 15,
+                          fontWeight: FontWeight.w500
                       ),
-                  Text("->  Worked with state Management - Provider Concept",
-                    style: TextStyle(
-                        color: Colors.white.withOpacity(animation!.aboutOpacity!.value),
-                        height: 1.4,
-                        fontSize: 15,
-                        fontWeight: FontWeight.w500
                     ),
+                Text("->  Worked with state Management - Provider Concept",
+                  style: TextStyle(
+                      color: Colors.white.withOpacity(animation!.aboutOpacity!.value),
+                      height: 1.4,
+                      fontSize: 15,
+                      fontWeight: FontWeight.w500
                   ),
-                  Text("->  Worked with Firebase for Push Notifications",
-                    style: TextStyle(
-                        color: Colors.white.withOpacity(animation!.aboutOpacity!.value),
-                        height: 1.4,
-                        fontSize: 15,
-                        fontWeight: FontWeight.w500
-                    ),
+                ),
+                Text("->  Worked with Firebase for Push Notifications",
+                  style: TextStyle(
+                      color: Colors.white.withOpacity(animation!.aboutOpacity!.value),
+                      height: 1.4,
+                      fontSize: 15,
+                      fontWeight: FontWeight.w500
                   ),
-                  Text("Worked with GitHubs to push, pull and for code maintenance",
-                    style: TextStyle(
-                        color: Colors.white.withOpacity(animation!.aboutOpacity!.value),
-                        height: 1.4,
-                        fontSize: 15,
-                        fontWeight: FontWeight.w500
-                    ),
+                ),
+                Text("Worked with GitHubs to push, pull and for code maintenance",
+                  style: TextStyle(
+                      color: Colors.white.withOpacity(animation!.aboutOpacity!.value),
+                      height: 1.4,
+                      fontSize: 15,
+                      fontWeight: FontWeight.w500
                   ),
-                  Text("->   Worked in delivery app with team (collaboration) for google maps",
-                    style: TextStyle(
-                        color: Colors.white.withOpacity(animation!.aboutOpacity!.value),
-                        height: 1.4,
-                        fontSize: 15,
-                        fontWeight: FontWeight.w500
-                    ),
+                ),
+                Text("->   Worked in delivery app with team (collaboration) for google maps",
+                  style: TextStyle(
+                      color: Colors.white.withOpacity(animation!.aboutOpacity!.value),
+                      height: 1.4,
+                      fontSize: 15,
+                      fontWeight: FontWeight.w500
                   ),
-                  Text("->  Bug Fixing and fixing performance issues & Code Maintanence",
-                    style: TextStyle(
-                        color: Colors.white.withOpacity(animation!.aboutOpacity!.value),
-                        height: 1.4,
-                        fontSize: 15,
-                        fontWeight: FontWeight.w500
-                    ),
+                ),
+                Text("->  Bug Fixing and fixing performance issues & Code Maintanence",
+                  style: TextStyle(
+                      color: Colors.white.withOpacity(animation!.aboutOpacity!.value),
+                      height: 1.4,
+                      fontSize: 15,
+                      fontWeight: FontWeight.w500
                   ),
-                ],
-              ),
+                ),
+              ],
             ),
-            SizedBox(height: 10.0,)
+            SizedBox(height: 20.0,)
           ],
         ),
       ),

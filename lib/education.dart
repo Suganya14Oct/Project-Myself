@@ -62,7 +62,7 @@ class Education extends StatelessWidget {
                       fontWeight: FontWeight.w500
                   ),
                 ),
-                Text("->  Vaigai College of Engineering, Madurai, Tamil Nadu, India based on Anna University Syllabus. "
+                Text("->  Vaigai College of Engineering, Madurai, Tamil Nadu, India based on Anna University Syllabus.      "
                     "->   GPA 8.1/10.0",
                   style: TextStyle(
                       color: Colors.white.withOpacity(animation!.aboutOpacity!.value),
