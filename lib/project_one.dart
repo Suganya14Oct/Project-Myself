@@ -121,9 +121,9 @@ class ProjectOne extends StatelessWidget {
                   fontWeight: FontWeight.w500
               ),
             ),
-            Text("                 This project has two different apps, One named as ""Temple City Admin,""Temple City delivery App.""Both apps have"
-                        "different purposes. Admin app is used by the hotel members to update, modify, delete daily food dishes, special"
-                            "dishes, prize details, etc,. On the other hand, the delivery app - which is used the customers to order food."
+            Text("                 This project has two different apps, One named as Temple City Admin and another one named as Temple City delivery App.Both apps have"
+                        " different purposes. Admin app is used by the hotel members to update, modify, delete daily food dishes, special"
+                            " dishes, prize details, etc,. On the other hand, the delivery app - which is used the customers to order food."
                             "Both the apps are Interlinked.",
                           style: TextStyle(
                               color: Colors.white.withOpacity(animation!.aboutOpacity!.value),
@@ -172,7 +172,7 @@ class ProjectOne extends StatelessWidget {
                       fontWeight: FontWeight.w500
                   ),
                 ),
-                Text("->  Worked with Firebase for Push Notifications",
+                Text("->  Worked and familiar with Firebase for Push Notifications",
                   style: TextStyle(
                       color: Colors.white.withOpacity(animation!.aboutOpacity!.value),
                       height: 1.4,
@@ -180,7 +180,7 @@ class ProjectOne extends StatelessWidget {
                       fontWeight: FontWeight.w500
                   ),
                 ),
-                Text("Worked with GitHubs to push, pull and for code maintenance",
+                Text("->  Worked with GitHubs to push, pull and for code maintenance",
                   style: TextStyle(
                       color: Colors.white.withOpacity(animation!.aboutOpacity!.value),
                       height: 1.4,

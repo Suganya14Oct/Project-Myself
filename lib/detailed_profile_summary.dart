@@ -75,7 +75,7 @@ class DetailedProfileSummary extends StatelessWidget {
             SizedBox(height: 14.0,),
             Column(
               children: [
-                Text("->  Experience in developing high-quality mobile Applications using the flutter framework.",
+                Text("->  Experience in developing high-quality mobile Applications using flutter framework.",
                   style: TextStyle(
                       color: Colors.white.withOpacity(animation!.aboutOpacity!.value),
                       height: 1.4,
@@ -123,7 +123,7 @@ class DetailedProfileSummary extends StatelessWidget {
                   ),
                 ),
                 SizedBox(height: 14.0,),
-                Text("-> Communicating with product and engineerin leads to implement business and project adjectives.",
+                Text("-> Communicating with product and engineering leads to implement business and project adjectives.",
                   style: TextStyle(
                       color: Colors.white.withOpacity(animation!.aboutOpacity!.value),
                       height: 1.4,

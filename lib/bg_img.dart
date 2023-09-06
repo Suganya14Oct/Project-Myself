@@ -1,5 +1,6 @@
 // import 'dart:js';
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:myself/animation.dart';
@@ -145,11 +146,18 @@ Widget _createLogoAvatar() {
                       text: "Suganya Murugan",
                       recognizer:TapGestureRecognizer()..onTap = () async{
                           var url = 'https://www.linkedin.com/in/suganya-murugan-83360b261';
-                           if(await canLaunchUrl(Uri.parse(url))) {
-                               await launchUrl(Uri.parse(url));
-                           }else{
-                             throw "Cannot load url";
+                         try{
+                           if(await launch(url)){
+                             await launch(url);
                            }
+                         }catch(e){
+                           print(e.toString());
+                         }
+                           // if(await canLaunchUrl(Uri.parse(url))) {
+                           //   await launchUrl(Uri.parse(url));
+                           // }else{
+                           //   throw "Can't load link";
+                           // }
                       }
                     ),
                     ),

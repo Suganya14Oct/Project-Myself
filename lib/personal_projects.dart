@@ -114,9 +114,17 @@ class PersonalProjects extends StatelessWidget {
                                               children: [
                                                 new IconButton( icon: Icon( Icons.link),
                                                   onPressed: () async {
-                                                    if(await canLaunchUrl(Uri.parse("https://github.com/Suganya14Oct/Project-Myself/tree/master"))) {
-                                                      await launchUrl(Uri.parse("https://github.com/Suganya14Oct/Project-Myself/tree/master"));
+                                                  var url = "https://github.com/Suganya14Oct/Project-Myself/tree/master";
+                                                  try{
+                                                    if(await launch(url)){
+                                                      await launch(url);
                                                     }
+                                                  }catch(e){
+                                                    print(e.toString());
+                                                  }
+                                                    // if(await canLaunchUrl(Uri.parse("https://github.com/Suganya14Oct/Project-Myself/tree/master"))) {
+                                                    //   await launchUrl(Uri.parse("https://github.com/Suganya14Oct/Project-Myself/tree/master"));
+                                                    // }
                                                   },
                                                 ),
                                                 //Text("Git Link",style: TextStyle(color: Colors.black,fontSize: 8),)
@@ -210,9 +218,18 @@ class PersonalProjects extends StatelessWidget {
                                                 children: [
                                                   new IconButton( icon: Icon( Icons.link),
                                                     onPressed: () async {
-                                                      if(await canLaunchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Google_maps"))) {
-                                                        await launchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Google_maps"));
+                                                    var url = "https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Google_maps";
+
+                                                    try{
+                                                      if(await launch(url)){
+                                                        await launch(url);
                                                       }
+                                                    }catch(e){
+                                                      print(e.toString());
+                                                    }
+                                                      // if(await canLaunchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Google_maps"))) {
+                                                      //   await launchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Google_maps"));
+                                                      // }
                                                     },
                                                   ),
                                                   //Text("Git Link",style: TextStyle(color: Colors.black,fontSize: 8),)
@@ -306,9 +323,19 @@ class PersonalProjects extends StatelessWidget {
                                                 children: [
                                                   new IconButton( icon: Icon( Icons.link),
                                                     onPressed: () async {
-                                                      if(await canLaunchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Jokes_app_orientation"))) {
-                                                        await launchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Jokes_app_orientation"));
+
+                                                      var url = "https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Jokes_app_orientation";
+
+                                                      try{
+                                                        if(await launch(url)){
+                                                          await launch(url);
+                                                        }
+                                                      }catch(e){
+                                                        print(e.toString());
                                                       }
+                                                      // if(await canLaunchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Jokes_app_orientation"))) {
+                                                      //   await launchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Jokes_app_orientation"));
+                                                      // }
                                                     },
                                                   ),
                                                   //Text("Git Link",style: TextStyle(color: Colors.black,fontSize: 8),)
@@ -402,9 +429,17 @@ class PersonalProjects extends StatelessWidget {
                                                 children: [
                                                   new IconButton( icon: Icon( Icons.link),
                                                     onPressed: () async {
-                                                      if(await canLaunchUrl(Uri.parse("https://github.com/Suganya14Oct/flutter-pro"))) {
-                                                        await launchUrl(Uri.parse("https://github.com/Suganya14Oct/flutter-pro"));
+                                                      var url = "https://github.com/Suganya14Oct/flutter-pro";
+                                                      try{
+                                                        if(await launch(url)){
+                                                          await launch(url);
+                                                        }
+                                                      }catch(e){
+                                                        print(e.toString());
                                                       }
+                                                      // if(await canLaunchUrl(Uri.parse("https://github.com/Suganya14Oct/flutter-pro"))) {
+                                                      //   await launchUrl(Uri.parse("https://github.com/Suganya14Oct/flutter-pro"));
+                                                      // }
                                                     },
                                                   ),
                                                   //Text("Git Link",style: TextStyle(color: Colors.black,fontSize: 8),)
@@ -498,9 +533,17 @@ class PersonalProjects extends StatelessWidget {
                                                 children: [
                                                   new IconButton( icon: Icon( Icons.link),
                                                     onPressed: () async {
-                                                      if(await canLaunchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Mortgage"))) {
-                                                        await launchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Mortgage"));
+                                                      var url = "https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Mortgage";
+                                                      try{
+                                                        if(await launch(url)){
+                                                          await launch(url);
+                                                        }
+                                                      }catch(e){
+                                                        print(e.toString());
                                                       }
+                                                      // if(await canLaunchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Mortgage"))) {
+                                                      //   await launchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Mortgage"));
+                                                      // }
                                                     },
                                                   ),
                                                   //Text("Git Link",style: TextStyle(color: Colors.black,fontSize: 8),)
@@ -594,9 +637,17 @@ class PersonalProjects extends StatelessWidget {
                                                 children: [
                                                   new IconButton( icon: Icon( Icons.link),
                                                     onPressed: () async {
-                                                      if(await canLaunchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Movies_app"))) {
-                                                        await launchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Movies_app"));
+                                                      var url = "https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Movies_app";
+                                                      try{
+                                                        if(await launch(url)){
+                                                          await launch(url);
+                                                        }
+                                                      }catch(e){
+                                                        print(e.toString());
                                                       }
+                                                      // if(await canLaunchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Movies_app"))) {
+                                                      //   await launchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Movies_app"));
+                                                      // }
                                                     },
                                                   ),
                                                   //Text("Git Link",style: TextStyle(color: Colors.black,fontSize: 8),)
@@ -690,9 +741,17 @@ class PersonalProjects extends StatelessWidget {
                                                 children: [
                                                   new IconButton( icon: Icon( Icons.link),
                                                     onPressed: () async {
-                                                      if(await canLaunchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Jokes_app_orientation"))) {
-                                                        await launchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Jokes_app_orientation"));
+                                                      var url = "https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Jokes_app_orientation";
+                                                      try{
+                                                        if(await launch(url)){
+                                                          await launch(url);
+                                                        }
+                                                      }catch(e){
+                                                        print(e.toString());
                                                       }
+                                                      // if(await canLaunchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Jokes_app_orientation"))) {
+                                                      //   await launchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Jokes_app_orientation"));
+                                                      // }
                                                     },
                                                   ),
                                                   //Text("Git Link",style: TextStyle(color: Colors.black,fontSize: 8),)
@@ -786,9 +845,17 @@ class PersonalProjects extends StatelessWidget {
                                                 children: [
                                                   new IconButton( icon: Icon( Icons.link),
                                                     onPressed: () async {
-                                                      if(await canLaunchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Weather_forecast"))) {
-                                                        await launchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Weather_forecast"));
+                                                      var url = "https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Weather_forecast";
+                                                      try{
+                                                        if(await launch(url)){
+                                                          await launch(url);
+                                                        }
+                                                      }catch(e){
+                                                        print(e.toString());
                                                       }
+                                                      // if(await canLaunchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Weather_forecast"))) {
+                                                      //   await launchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/Weather_forecast"));
+                                                      // }
                                                     },
                                                   ),
                                                   //Text("Git Link",style: TextStyle(color: Colors.black,fontSize: 8),)
@@ -882,9 +949,17 @@ class PersonalProjects extends StatelessWidget {
                                                 children: [
                                                   new IconButton( icon: Icon( Icons.link),
                                                     onPressed: () async {
-                                                      if(await canLaunchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/quakes_map_app"))) {
-                                                        await launchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/quakes_map_app"));
+                                                      var url = "https://github.com/Suganya14Oct/All-Projects/tree/master/lib/quakes_map_app";
+                                                      try{
+                                                        if(await launch(url)){
+                                                          await launch(url);
+                                                        }
+                                                      }catch(e){
+                                                        print(e.toString());
                                                       }
+                                                      // if(await canLaunchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/quakes_map_app"))) {
+                                                      //   await launchUrl(Uri.parse("https://github.com/Suganya14Oct/All-Projects/tree/master/lib/quakes_map_app"));
+                                                      // }
                                                     },
                                                   ),
                                                   //Text("Git Link",style: TextStyle(color: Colors.black,fontSize: 8),)

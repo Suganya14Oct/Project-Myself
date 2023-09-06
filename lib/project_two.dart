@@ -121,15 +121,15 @@ class ProjectTwo extends StatelessWidget {
                   fontWeight: FontWeight.w500
               ),
             ),
-            Text("                 There are two persons who plays a main role. One is Contractor and the other is Auditor."
+            Text("                 There are two persons who plays a main role in this project. One is Contractor and the other is Auditor."
                           "This project has two logins.One for contractor and other for auditor. The contractor maintains"
-                          "all the payroll details (for example PF, ESI, Bank Statement, Attendance, etc,.) The auditor will"
-                    "check the documents according to some conditions. For example, WC policy license will be generated"
-                    "for certain time lapse. The auditor will mention the time lapse or some conditions in that login."
+                          " all the payroll details (for example PF, ESI, Bank Statement, Attendance, etc,.) The auditor will"
+                    " check the documents according to some conditions. For example, WC policy license will be generated"
+                    " for certain time lapse. The auditor will mention the time lapse or some conditions in that login."
                     "The app will check whether the condition time lapse matches.(This will be done by the APIs used in"
-                        "the app).if the condition mismatches, The file will be rejected with remarks. Again the rejected file"
+                        "the app).If the condition mismatches, The file will be rejected with remarks. Again the rejected file"
                      " will be recheked by the contractor. The file will be corrected again and uploaded again by the"
-                  "contractor. Again the auditor will check if the condition satidfied, the file will be approved.",
+                  " contractor. Again the auditor will check if the condition satisfied, the file will be approved.",
               style: TextStyle(
                   color: Colors.white.withOpacity(animation!.aboutOpacity!.value),
                   height: 1.4,

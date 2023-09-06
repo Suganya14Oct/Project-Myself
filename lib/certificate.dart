@@ -101,9 +101,17 @@ class Certicate extends StatelessWidget {
                                                 new IconButton( icon: Icon( Icons.link),
                                                   onPressed: () async {
 
-                                                    if(await canLaunchUrl(Uri.parse("https://www.udemy.com/certificate/UC-1341bfa0-0440-4217-8dc5-2e0edea0c33a/"))) {
-                                                      await launchUrl(Uri.parse("https://www.udemy.com/certificate/UC-1341bfa0-0440-4217-8dc5-2e0edea0c33a/"));
+                                                  var url = "https://www.udemy.com/certificate/UC-1341bfa0-0440-4217-8dc5-2e0edea0c33a/";
+                                                  try{
+                                                    if(await launch(url)){
+                                                      await launch(url);
                                                     }
+                                                  }catch(e){
+                                                    print(e.toString());
+                                                  }
+                                                    // if(await canLaunchUrl(Uri.parse("https://www.udemy.com/certificate/UC-1341bfa0-0440-4217-8dc5-2e0edea0c33a/"))) {
+                                                    //   await launchUrl(Uri.parse("https://www.udemy.com/certificate/UC-1341bfa0-0440-4217-8dc5-2e0edea0c33a/"));
+                                                    // }
                                                   },
                                                 ),
                                                 //Text("Git Link",style: TextStyle(color: Colors.black,fontSize: 8),)
